@@ -1,0 +1,18 @@
+mkdir
+cd <folder>
+ls
+git init
+git status
+git add .
+git config --global user.name "Git username"
+git config --global user.email "git email"
+git status
+git add .
+git commit -m "first commit"
+git status
+git remote add origin <url>
+git push -u origin master / git push origin master / git push origin --all
+#If did'nt push do below command, we have pull
+git pull --rebase origin master
+git clone <url>
+
